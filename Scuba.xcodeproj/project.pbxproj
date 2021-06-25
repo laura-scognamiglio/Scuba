@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051CC953255D34EA0056BA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051CC952255D34EA0056BA00 /* Assets.xcassets */; };
+		051CC958255D41160056BA00 /* UIKitTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051CC957255D41160056BA00 /* UIKitTab.swift */; };
+		051CC965255DAA110056BA00 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051CC964255DAA110056BA00 /* SearchBar.swift */; };
+		055578A8260B82B300D03D25 /* AVIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055578A7260B82B300D03D25 /* AVIS.swift */; };
 		05C8C2EE255A9F77006B256D /* ScubaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C8C2ED255A9F77006B256D /* ScubaApp.swift */; };
 		05C8C2F0255A9F77006B256D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C8C2EF255A9F77006B256D /* ContentView.swift */; };
-		05C8C2F2255A9F78006B256D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C8C2F1255A9F78006B256D /* Assets.xcassets */; };
 		05C8C2F5255A9F78006B256D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C8C2F4255A9F78006B256D /* Preview Assets.xcassets */; };
 		05C8C300255A9F78006B256D /* ScubaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C8C2FF255A9F78006B256D /* ScubaTests.swift */; };
 		05C8C30B255A9F78006B256D /* ScubaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C8C30A255A9F78006B256D /* ScubaUITests.swift */; };
+		05C8C31C255A9F83006B256D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C8C31B255A9F83006B256D /* Data.swift */; };
+		05C8C324255AA666006B256D /* ExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C8C323255AA666006B256D /* ExplorerView.swift */; };
+		05C8C329255AA87A006B256D /* HisoriqueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C8C328255AA87A006B256D /* HisoriqueView.swift */; };
+		05C8C331255ABCF1006B256D /* ExctractedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C8C330255ABCF1006B256D /* ExctractedList.swift */; };
+		05C8C336255ACBB5006B256D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C8C335255ACBB5006B256D /* ListView.swift */; };
+		05C8C33F255AD373006B256D /* MapScuba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C8C33E255AD373006B256D /* MapScuba.swift */; };
+		05C8C349255AD3EE006B256D /* MapV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C8C348255AD3EE006B256D /* MapV.swift */; };
+		05C8C351255AD5AD006B256D /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C8C350255AD5AD006B256D /* AnnotationView.swift */; };
+		05E32CD7255C2AFC00650516 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E32CD6255C2AFC00650516 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051CC952255D34EA0056BA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		051CC957255D41160056BA00 /* UIKitTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitTab.swift; sourceTree = "<group>"; };
+		051CC964255DAA110056BA00 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		055578A7260B82B300D03D25 /* AVIS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVIS.swift; sourceTree = "<group>"; };
 		05C8C2EA255A9F77006B256D /* Scuba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scuba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C8C2ED255A9F77006B256D /* ScubaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScubaApp.swift; sourceTree = "<group>"; };
 		05C8C2EF255A9F77006B256D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		05C8C2F1255A9F78006B256D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05C8C2F4255A9F78006B256D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		05C8C2F6255A9F78006B256D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05C8C2FB255A9F78006B256D /* ScubaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScubaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +60,15 @@
 		05C8C306255A9F78006B256D /* ScubaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScubaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C8C30A255A9F78006B256D /* ScubaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScubaUITests.swift; sourceTree = "<group>"; };
 		05C8C30C255A9F78006B256D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C8C31B255A9F83006B256D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		05C8C323255AA666006B256D /* ExplorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerView.swift; sourceTree = "<group>"; };
+		05C8C328255AA87A006B256D /* HisoriqueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisoriqueView.swift; sourceTree = "<group>"; };
+		05C8C330255ABCF1006B256D /* ExctractedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExctractedList.swift; sourceTree = "<group>"; };
+		05C8C335255ACBB5006B256D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		05C8C33E255AD373006B256D /* MapScuba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScuba.swift; sourceTree = "<group>"; };
+		05C8C348255AD3EE006B256D /* MapV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapV.swift; sourceTree = "<group>"; };
+		05C8C350255AD5AD006B256D /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		05E32CD6255C2AFC00650516 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +121,20 @@
 			children = (
 				05C8C2ED255A9F77006B256D /* ScubaApp.swift */,
 				05C8C2EF255A9F77006B256D /* ContentView.swift */,
-				05C8C2F1255A9F78006B256D /* Assets.xcassets */,
+				05C8C323255AA666006B256D /* ExplorerView.swift */,
+				05C8C328255AA87A006B256D /* HisoriqueView.swift */,
+				05E32CD6255C2AFC00650516 /* DetailView.swift */,
+				055578A7260B82B300D03D25 /* AVIS.swift */,
+				05C8C31B255A9F83006B256D /* Data.swift */,
+				05C8C330255ABCF1006B256D /* ExctractedList.swift */,
+				05C8C335255ACBB5006B256D /* ListView.swift */,
+				05C8C350255AD5AD006B256D /* AnnotationView.swift */,
+				051CC964255DAA110056BA00 /* SearchBar.swift */,
+				05C8C348255AD3EE006B256D /* MapV.swift */,
+				051CC957255D41160056BA00 /* UIKitTab.swift */,
+				05C8C33E255AD373006B256D /* MapScuba.swift */,
 				05C8C2F6255A9F78006B256D /* Info.plist */,
+				051CC952255D34EA0056BA00 /* Assets.xcassets */,
 				05C8C2F3255A9F78006B256D /* Preview Content */,
 			);
 			path = Scuba;
@@ -233,8 +269,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				051CC953255D34EA0056BA00 /* Assets.xcassets in Resources */,
 				05C8C2F5255A9F78006B256D /* Preview Assets.xcassets in Resources */,
-				05C8C2F2255A9F78006B256D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +295,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				051CC965255DAA110056BA00 /* SearchBar.swift in Sources */,
+				05C8C329255AA87A006B256D /* HisoriqueView.swift in Sources */,
 				05C8C2F0255A9F77006B256D /* ContentView.swift in Sources */,
+				05C8C33F255AD373006B256D /* MapScuba.swift in Sources */,
+				055578A8260B82B300D03D25 /* AVIS.swift in Sources */,
+				05C8C324255AA666006B256D /* ExplorerView.swift in Sources */,
+				05C8C336255ACBB5006B256D /* ListView.swift in Sources */,
+				05E32CD7255C2AFC00650516 /* DetailView.swift in Sources */,
+				05C8C351255AD5AD006B256D /* AnnotationView.swift in Sources */,
+				05C8C31C255A9F83006B256D /* Data.swift in Sources */,
+				05C8C331255ABCF1006B256D /* ExctractedList.swift in Sources */,
+				05C8C349255AD3EE006B256D /* MapV.swift in Sources */,
+				051CC958255D41160056BA00 /* UIKitTab.swift in Sources */,
 				05C8C2EE255A9F77006B256D /* ScubaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +467,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Scuba/Preview Content\"";
+				DEVELOPMENT_TEAM = GF2287775D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Scuba/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -426,7 +475,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Com.Simplon.Scuba;
+				PRODUCT_BUNDLE_IDENTIFIER = LesMarseillais.Scuba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,6 +489,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Scuba/Preview Content\"";
+				DEVELOPMENT_TEAM = GF2287775D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Scuba/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -447,7 +497,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Com.Simplon.Scuba;
+				PRODUCT_BUNDLE_IDENTIFIER = LesMarseillais.Scuba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
